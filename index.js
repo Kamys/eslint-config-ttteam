@@ -23,6 +23,7 @@ module.exports = {
     'react/jsx-max-props-per-line': ['warn', { maximum: 4 }],
     'react/jsx-handler-names': ['error'],
     'react/jsx-no-bind': ['error'],
+    'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
     'react/destructuring-assignment': ['off'],
     'react/no-unused-prop-types': ['off'],
     'import/prefer-default-export': ['off'],
