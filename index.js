@@ -33,5 +33,6 @@ module.exports = {
     'operator-linebreak': ['error', 'after'],
     'no-return-assign': ['error', 'except-parens'],
     'no-console': ['error', { allow: ['warn', 'error'] }],
+    'quote-props': ['error', 'consistent-as-needed'],
   },
 };
