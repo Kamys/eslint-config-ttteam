@@ -1,0 +1,37 @@
+module.exports = {
+  env: {
+    es6: true,
+  },
+  parser: 'babel-eslint',
+  extends: ['airbnb'],
+  plugins: ['react', 'jsx-a11y', 'import'],
+  rules: {
+    'react/prefer-stateless-function': ['off'],
+    'react/jsx-wrap-multilines': [
+      'error',
+      {
+        declaration: 'parens-new-line',
+        assignment: 'parens-new-line',
+        return: 'parens-new-line',
+        arrow: 'parens-new-line',
+        condition: 'ignore',
+        logical: 'ignore',
+      },
+    ],
+    'react/jsx-closing-tag-location': ['error'],
+    'react/jsx-one-expression-per-line': ['error', { allow: 'single-child' }],
+    'react/jsx-max-props-per-line': ['warn', { maximum: 4 }],
+    'react/jsx-handler-names': ['error'],
+    'react/jsx-no-bind': ['error'],
+    'react/destructuring-assignment': ['off'],
+    'react/no-unused-prop-types': ['off'],
+    'import/prefer-default-export': ['off'],
+    'jsx-a11y/anchor-is-valid': ['off'],
+    'jsx-a11y/no-static-element-interactions': ['off'],
+    'jsx-a11y/click-events-have-key-events': ['off'],
+    'jsx-a11y/no-autofocus': ['off'],
+    'operator-linebreak': ['error', 'after'],
+    'no-return-assign': ['error', 'except-parens'],
+    'no-console': ['error', { allow: ['warn', 'error'] }],
+  },
+};
