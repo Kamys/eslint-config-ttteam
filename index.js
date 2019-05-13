@@ -4,7 +4,12 @@ module.exports = {
   },
   parser: 'babel-eslint',
   extends: ['airbnb'],
-  plugins: ['react', 'jsx-a11y', 'import'],
+  plugins: [
+    'react', 
+    'jsx-a11y', 
+    'import',
+    'react-hooks'
+  ],
   rules: {
     'react/prefer-stateless-function': ['off'],
     'react/jsx-wrap-multilines': [
@@ -26,6 +31,8 @@ module.exports = {
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
     'react/destructuring-assignment': ['off'],
     'react/no-unused-prop-types': ['off'],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
     'import/prefer-default-export': ['off'],
     'jsx-a11y/anchor-is-valid': ['off'],
     'jsx-a11y/no-static-element-interactions': ['off'],
