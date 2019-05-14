@@ -31,7 +31,7 @@ module.exports = {
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
     'react/destructuring-assignment': ['off'],
     'react/no-unused-prop-types': ['off'],
-    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/rules-of-hooks': ['error'],
     'react-hooks/exhaustive-deps': 'warn',
     'import/prefer-default-export': ['off'],
     'jsx-a11y/anchor-is-valid': ['off'],
