@@ -32,7 +32,7 @@ module.exports = {
     'react/destructuring-assignment': ['off'],
     'react/no-unused-prop-types': ['off'],
     'react-hooks/rules-of-hooks': ['error'],
-    'react-hooks/exhaustive-deps': 'warn',
+    'react-hooks/exhaustive-deps': ['warn'],
     'import/prefer-default-export': ['off'],
     'jsx-a11y/anchor-is-valid': ['off'],
     'jsx-a11y/no-static-element-interactions': ['off'],
